@@ -1,5 +1,6 @@
 import { Schema, model } from 'mongoose';
 
+// Define the Workout schema
 const workoutSchema = new Schema({
   title: { type: String, required: true, trim: true },
   focus: { type: String, required: true, trim: true },

@@ -1,5 +1,6 @@
 import { Schema, model } from 'mongoose';
 
+// Define the Team schema
 const teamSchema = new Schema({
   name: { type: String, required: true, trim: true },
   mascot: { type: String, required: true, trim: true },

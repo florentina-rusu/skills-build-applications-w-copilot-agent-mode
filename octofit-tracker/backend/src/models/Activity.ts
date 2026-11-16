@@ -1,5 +1,6 @@
 import { Schema, model } from 'mongoose';
 
+// Define the Activity schema
 const activitySchema = new Schema({
   user: { type: Schema.Types.ObjectId, ref: 'User', required: true },
   team: { type: Schema.Types.ObjectId, ref: 'Team', required: true },
